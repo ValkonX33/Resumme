@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@font-face {
+    font-family: loda;
+    src: url('assets\Heavitas.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Kaushan Script', cursive; */
+    background-color:#F4F1ED;
+    font-family: loda;
+    
+}
+.nav-section{
+    height: 20px;
+ 
+}
+.navbar{
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    background-color: #f3ecec;
+}
+.logo-wrapper{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: black;
+    font-weight:900;
+    background-color:#F4F1ED;
+    margin-left: 6rem;
+
+    
+
+}
+.sepration{
+    background-color:#000;
+    height: 1px;
+    opacity: 0.2 ;
+}
+.container{
+    /* background-color:#F4F1ED; */
+    /* height: 1000px; ; */
+    margin-top: 10rem;
+}
+.text-1{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.text-2{
+    /* font-weight: 900; */
+    font-size: 3rem;
+  color: rgb(96, 89, 89);
+}
+.portfolio{
+    color: #2e2f8f;
+    font-family: Heavitas;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.img-container{
+    top: 150px;
+    height: 10vh;
+    right: 100px;
+    
+    position: absolute;
+    left: 50rem;
+    bottom: 15rem;
+}
+.img{
+    height: 70vh;
+}
+    
+.sub-heading{
+/* 
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 6rem; */
+
+    color: #000;
+    
+    font-size: 40px;
+    font-style: normal;
+   
+
+    margin-left: 6rem;
+
+
+}
+.para{
+    display: flex;
+width: 678px;
+
+font-weight: 100px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+margin-left: 6rem;
+
+}
+.btn-contaienr{
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+.register{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bold ;
+    border-radius: 4px;
+    /* border: 3px solid #000; */
+    background-color: #F4F1ED;
+    color: black;
+    border: 3px solid #000b07;
+    margin-right: 1rem;
+    transition-duration: 0.4s;
+}
+.login{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+border: 3px solid #3e40b5;
+background: #B5B6E8;
+transition-duration: 0.4s;
+  
+    
+}
+.register:hover{
+    background-color: #393bb4;
+    color: #F4F1ED;
+    scale: 1.1;
+}
+
+.login:hover{
+    scale: 1.1;
+}
